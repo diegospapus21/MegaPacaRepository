@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
+import { config } from "./config";
 
-mongoose.connect("mongodb://localhost:27017/megapacaDB")
+mongoose.connect("config.db.URI");
 
 //COMPROBAR QUE TODO FUNCIONA
 const connection = mongoose.connection;

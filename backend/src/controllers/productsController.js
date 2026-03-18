@@ -1,7 +1,7 @@
 //Crear un array de metodos
 const productsController = {};
 
-import productsModel from "../models/products.js";
+import productsModel from "../models/product.js";
 
 //SELECT 
 productsController.getProducts = async(req, res) =>{

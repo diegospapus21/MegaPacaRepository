@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
-import { config } from "./config";
+import { config } from "./config.js";
 
-mongoose.connect("config.db.URI");
+mongoose.connect(config.db.URI);
 
 //COMPROBAR QUE TODO FUNCIONA
 const connection = mongoose.connection;
